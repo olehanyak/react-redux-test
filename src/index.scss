@@ -1,0 +1,43 @@
+@import "./components/Home/Home.scss";
+@import "./components//SearchTracks/SearchTrack.scss";
+@import "./components//Artist/ContainerArtist.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+.container {
+  background-color: #cfcfcf;
+  min-height: 100vh;
+
+  &__navLinks {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__nav {
+    padding: 30px;
+    font-size: 30px;
+  }
+}

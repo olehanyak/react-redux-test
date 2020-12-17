@@ -1,0 +1,21 @@
+.search-form {
+  
+  &__input {
+    border: none;
+    height: 35px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+}
+
+.name-artist {
+  color: #ffffff;
+}
+
+.tracks-list {
+  margin-left: 30px;
+  margin-top: 20px;
+  list-style-type: none;
+}

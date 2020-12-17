@@ -1,0 +1,25 @@
+.title-name-artist {
+  margin: 20px 0 0 30px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.info-artist {
+  margin: 10px 0 0 30px;
+
+  &__img {
+    float: right;
+  }
+
+  &__tags {
+    display: flex;
+    margin-top: 10px;
+
+    &_item {
+      margin: 0 5px 0 0px;
+      border: 1px solid #17a2b8;
+      border-radius: 3px;
+      padding: 20px;
+    }
+  }
+}
